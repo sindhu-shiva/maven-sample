@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-02T18:16:47 IST" name="Default suite" finished-at="2021-06-02T18:17:06 IST" duration-ms="19510">
+    <groups>
+      <group name="Title">
+        <method signature="TestNGBasics.googlegmail()[pri:1, instance:com.qa.test.TestNGBasics@7ce3cb8e]" name="googlegmail" class="com.qa.test.TestNGBasics"/>
+        <method signature="TestNGBasics.googlepage()[pri:2, instance:com.qa.test.TestNGBasics@7ce3cb8e]" name="googlepage" class="com.qa.test.TestNGBasics"/>
+      </group> <!-- Title -->
+      <group name="URL">
+        <method signature="TestNGBasics.googlepage1()[pri:3, instance:com.qa.test.TestNGBasics@7ce3cb8e]" name="googlepage1" class="com.qa.test.TestNGBasics"/>
+      </group> <!-- URL -->
+    </groups>
+    <test started-at="2021-06-02T18:16:47 IST" name="Default test" finished-at="2021-06-02T18:17:06 IST" duration-ms="19510">
+      <class name="com.qa.test.TestNGBasics">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.test.TestNGBasics@7ce3cb8e]" started-at="2021-06-02T18:16:47 IST" name="setup" finished-at="2021-06-02T18:16:51 IST" duration-ms="4391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logo()[pri:0, instance:com.qa.test.TestNGBasics@7ce3cb8e]" started-at="2021-06-02T18:16:51 IST" name="logo" finished-at="2021-06-02T18:16:52 IST" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.test.TestNGBasics@7ce3cb8e]" started-at="2021-06-02T18:16:52 IST" name="tearDown" finished-at="2021-06-02T18:16:52 IST" duration-ms="320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.test.TestNGBasics@7ce3cb8e]" started-at="2021-06-02T18:16:52 IST" name="setup" finished-at="2021-06-02T18:16:55 IST" duration-ms="3380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="googlegmail()[pri:1, instance:com.qa.test.TestNGBasics@7ce3cb8e]" started-at="2021-06-02T18:16:55 IST" name="googlegmail" finished-at="2021-06-02T18:16:55 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googlegmail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.test.TestNGBasics@7ce3cb8e]" started-at="2021-06-02T18:16:55 IST" name="tearDown" finished-at="2021-06-02T18:16:56 IST" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.test.TestNGBasics@7ce3cb8e]" started-at="2021-06-02T18:16:56 IST" name="setup" finished-at="2021-06-02T18:16:59 IST" duration-ms="3267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="googleCheck()[pri:0, instance:com.qa.test.TestNGBasics@7ce3cb8e]" started-at="2021-06-02T18:16:59 IST" name="googleCheck" finished-at="2021-06-02T18:16:59 IST" depends-on-methods="com.qa.test.TestNGBasics.googlegmail" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleCheck -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.test.TestNGBasics@7ce3cb8e]" started-at="2021-06-02T18:16:59 IST" name="tearDown" finished-at="2021-06-02T18:16:59 IST" duration-ms="329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.test.TestNGBasics@7ce3cb8e]" started-at="2021-06-02T18:16:59 IST" name="setup" finished-at="2021-06-02T18:17:03 IST" duration-ms="3501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="googlepage()[pri:2, instance:com.qa.test.TestNGBasics@7ce3cb8e]" started-at="2021-06-02T18:17:03 IST" name="googlepage" finished-at="2021-06-02T18:17:03 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googlepage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.test.TestNGBasics@7ce3cb8e]" started-at="2021-06-02T18:17:03 IST" name="tearDown" finished-at="2021-06-02T18:17:03 IST" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.test.TestNGBasics@7ce3cb8e]" started-at="2021-06-02T18:17:03 IST" name="setup" finished-at="2021-06-02T18:17:06 IST" duration-ms="3218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="googlepage1()[pri:3, instance:com.qa.test.TestNGBasics@7ce3cb8e]" started-at="2021-06-02T18:17:06 IST" name="googlepage1" finished-at="2021-06-02T18:17:06 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googlepage1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.test.TestNGBasics@7ce3cb8e]" started-at="2021-06-02T18:17:06 IST" name="tearDown" finished-at="2021-06-02T18:17:06 IST" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.test.TestNGBasics -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

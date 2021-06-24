@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite with weq]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Testweq(failed)">
+    <parameter name="password" value="Conduent@123"/>
+    <parameter name="url" value="https://ent-mls-qweb1.itocservices.com/Webportal/Login.aspx?ReturnUrl=%2fWebPortal"/>
+    <parameter name="username" value="52101780"/>
+    <classes>
+      <class name="com.qa.weq.reportlogin">
+        <methods>
+          <include name="login" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.qa.weq.reportlogin -->
+    </classes>
+  </test> <!-- Testweq(failed) -->
+</suite> <!-- Failed suite [Suite with weq] -->
